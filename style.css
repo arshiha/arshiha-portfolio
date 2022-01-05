@@ -25,9 +25,7 @@ section{
     color: white;  
 }
 .border-area h1{
-   margin: 0;
-   padding: 0;
-   outline: 0;
+   padding: 5px;
 }
 h1{
     border-left: 2px solid salmon;
