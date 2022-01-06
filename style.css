@@ -97,5 +97,10 @@ h2{
     padding: 5px;
     font-size: xx-small;
 }
+.home{
+    font-size: smaller;
+    margin-left: 10px;
+    margin-right: 15px;
+}
 
 
