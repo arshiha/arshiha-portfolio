@@ -7,14 +7,18 @@ body{
 }
 section{
     display: flex;
+    margin-bottom: 100px;
 }
 .half-width{
     width: 50%;
-    padding-left: 7%;
+    padding-left: 5%;
     padding-top: 5%;
+    margin-left: 40px;
+    
+    
 }
 .half-width img{
-    width: 80%;
+    width: 70%;
 }
 #width{
     background-color: orangered;
@@ -24,6 +28,23 @@ section{
     font-weight: 700;
     color: white;  
 }
+.text{
+    font-size: 12px;
+    
+}
+.font{
+    font-size: 12px;
+}
+#button{
+   background-color: tomato; 
+   padding: 5px;
+   width: 175px;
+   padding-left: 10px;
+   border-radius: 5%;
+   font-weight: 700;
+   color: white;
+}
+
 .border-area h1{
    padding: 5px;
 }
@@ -31,6 +52,50 @@ h1{
     border-left: 2px solid salmon;
     border-bottom: 4px;
 }
+.remove-border h1 {
+    border-left: 0px;
+}
 h2{
     text-align: center;
+    
 }
+#card{
+    display: block;
+}
+#card h1{
+    text-align: center;
+    border-left: 0px;
+}
+#card span{
+    color:tomato;
+}
+.card{
+    width: 200px;
+    height: 200px;
+    border-radius: 5%;
+    margin: 10px;
+    box-sizing: border-box;
+    box-shadow: 1px 2px 4px gray;
+}
+.card1-bg{
+    background-color: #EDF5F6;
+}
+.card2-bg{
+    background-color: #FFEEEE;
+}
+.card3-bg{
+    background-color: #FFF4D6;
+}
+.all-card{
+    display: flex;
+    justify-content: center;
+}
+.image-style{
+    width: 40%;
+}
+.card-body{
+    padding: 5px;
+    font-size: xx-small;
+}
+
+
